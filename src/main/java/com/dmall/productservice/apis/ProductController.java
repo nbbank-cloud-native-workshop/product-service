@@ -48,7 +48,7 @@ public class ProductController {
     }
 
 
-    @ApiOperation("Create new product")
+    @ApiOperation("Create new product!!!!")
     @PostMapping
     public ProductResponse createProduct(@RequestBody ProductCreationRequest request) {
         Product product = productAssembler.toDomainObject(request);
